@@ -1,0 +1,18 @@
+        /*Element selector*/
+        div {
+            background-color: lightblue;
+        }
+
+        /*ID selector*/
+        #header {
+            font-size: 2rem;
+        }
+
+        /*Class selector*/
+        .subtitle {
+            color: rgba(37, 32, 32, 0.194);
+        }
+
+        #content p {
+            color: rgb(207, 23, 167);
+        }
