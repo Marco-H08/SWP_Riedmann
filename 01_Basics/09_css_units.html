@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css_units</title>
+    <style>
+        * {
+            margin: 0px;
+            font-size: 20px;
+        }
+
+        div {
+            height: 50px;
+            background-color: red;
+        }
+
+        .container1 {
+            width: 50%;
+            /* Bezieht sich auf die Schriftgröße des Vaterelements: 50% des div-main */
+            font-size: 0.8rem;
+            /* Bezieht sich auf die root-Schriftgröße: 0.8*20px aus dem root-Element */
+        }
+
+        .container2 {
+            width: 50vw;
+            height: 50vh;
+            /* Bezieht sich immer auf die gesamte Bildschirmgröße: 50% der Bildschirmhöhe */
+            font-size: 0.4rem;
+        }
+
+        .main {
+            background-color: green;
+            height: 200px;
+            width: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        Hello World
+        <div class="container1">
+            container1
+        </div>
+        <div class="container2">
+            container2
+        </div>
+    </div>
+
+</body>
+
+</html>
